@@ -8,7 +8,7 @@ function Message() {
     // Inline condition statements - in {} after condition &&
     const getMessage = () =>{
        // return items.length === 0 ? <p>No items</p> : null;
-        return items.length === 0 && <p>No items</p>;
+        return items.length === 0 && <p>No items To show</p>; // when true
 
     }
 
